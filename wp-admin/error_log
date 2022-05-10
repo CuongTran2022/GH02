@@ -1,0 +1,14 @@
+[18-Aug-2021 08:38:00 UTC] Exception caught in get_preset. Invalid preset.. Args: Array
+(
+    [0] => default-preset
+)
+..
+[23-Aug-2021 06:02:14 UTC] [Loco.warning] "This is NOT a translation file. Manual editing of source strings is not recommended." in src/admin/file/EditController.php:159
+[03-Sep-2021 10:10:35 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
+[03-Sep-2021 10:10:35 UTC] id was called incorrectly. Order properties should not be accessed directly. Backtrace: do_action('wp_ajax_payment_response'), WP_Hook->do_action, WP_Hook->apply_filters, vnpay\Responses\vnpayResponse->checkResponse, WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[03-Sep-2021 10:10:35 UTC] order_key was called incorrectly. Order properties should not be accessed directly. Backtrace: do_action('wp_ajax_payment_response'), WP_Hook->do_action, WP_Hook->apply_filters, vnpay\Responses\vnpayResponse->checkResponse, WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[08-Sep-2021 03:06:40 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3 với truy vấn 
+    SELECT w.id, TRIM(CONCAT(w.prefix, ' ', w.name)) as text
+    FROM wp_wards as w
+    WHERE w.district_id = 
+     yêu cầu bởi require('wp-admin/edit-tag-form.php'), do_action('pwb-brand_edit_form_fields'), WP_Hook->do_action, WP_Hook->apply_filters, Perfect_Woocommerce_Brands\Admin\Brands_Custom_Fields->add_brands_metafields_form_edit, Perfect_Woocommerce_Brands\Perfect_Woocommerce_Brands::get_wards
